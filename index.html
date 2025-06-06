@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charitha's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Charitha 👋</h1>
+    <p>A passionate CSE student from Narayana Engineering College, Nellore</p>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  </header>
+
+  <nav>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('certifications')">Certifications</button>
+    <button onclick="showSection('contact')">Contact</button>
+  </nav>
+
+  <main>
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>Hello! I'm Charitha, a B.Tech CSE student from NECN. I love Web Dev, AI, and organizing tech events.</p>
+    </section>
+
+    <section id="skills" class="content-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, C++, Java</li>
+        <li>HTML, CSS, MySQL</li>
+        <li>Git, VS Code, Canva</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="content-section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Online Voting System</strong> – Built using PHP & MySQL</li>
+        <li><strong>Portfolio Website</strong> – This website you're viewing now!</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="content-section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Oasis Infobyte – Internship Completion</li>
+        <li>LinkedIn Learning – Web Development Basics</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:charitha@gmail.com">charitha@gmail.com</a></p>
+      <p>LinkedIn: 
+        <a href="https://www.linkedin.com/in/charitha" target="_blank" rel="noopener">
+          linkedin.com/in/charitha
+        </a>
+      </p>
+      <p>GitHub: 
+        <a href="https://github.com/charitha" target="_blank" rel="noopener">
+          github.com/charitha
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Charitha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
